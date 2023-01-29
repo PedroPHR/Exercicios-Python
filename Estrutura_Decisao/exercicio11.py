@@ -1,4 +1,3 @@
-
 salario_colab = float(input('Digite seu salario: '))
 
 aumento = 0.0
