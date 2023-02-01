@@ -1,4 +1,4 @@
-inteiro = int(input('Digite um numero inteiro: '))
+inteiro = int(input('Digite um numero: '))
 
 sobras_deze = inteiro % 100
 sobras_unid = inteiro % 10
