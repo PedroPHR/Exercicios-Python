@@ -52,14 +52,14 @@ sexo = str(input('qual seu sexo, Digite M para Masculino ou F para Feminino: '))
 
 sexo = sexo.upper()
 
-while(!'F'.equals(sexo)) or (!'M'.equals(sexo)):
+while(sexo != 'M' and sexo != 'F'):
 	sexo = str(input('sexo invalido: '))
 
 esta_civil = str(input('Qual seu Estado Civil: S para SOLTEIRO, C para CASADO, V para VIUVO ou D para DIVORCIADO: '))
 
 esta_civil = esta_civil.upper()
 
-while(esta_civil != 'S') or (esta_civil != 'C') or (esta_civil != 'V') or (esta_civil != 'D'):
+while(esta_civil != 'S') and (esta_civil != 'C') and (esta_civil != 'V') and (esta_civil != 'D'):
 	esta_civil = str(input('Estado Civil invalido: '))
 
 
