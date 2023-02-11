@@ -1,7 +1,7 @@
 print('PROGRAMA PARA CALCULAR TEMPO DE CRESCIMENTO DE UM PAIS PERANTE OUTRO')
 
-paisA = float(input('Digite a população do Pais A: '))
-paisB = float(input('Digite a população do Pais B: '))
+paisA = float(80000)
+paisB = float(200000)
 cont = 0
 
 while (paisA < paisB):
@@ -10,7 +10,7 @@ while (paisA < paisB):
     crescimentoB = paisB * 0.015
     paisB += crescimentoB
     cont += 1
-    print(paisA, paisB)
+    # print(paisA, paisB)
 else:
     print(
         f'Quantidade de anos que demorou para o Pais A passar em população do Pais B foi: {cont} Anos')
