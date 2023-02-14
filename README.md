@@ -10,3 +10,7 @@ upper() = Deixa a String em caixa alta. Exemplo: nome = 'pedro' -- x = nome.uppe
 lower() = Deixa a String em caixa baixa. Exemplo: nome = 'PEDRO' -- x = nome.upper() - result = pedro
 
 round() = Para arredondar numero. Exemplo: num = 190.23252525235. round(num, 2) = 190.23
+
+Metodo para raiz quadrada. Exemplo: 81 ** (1/2) = 9
+
+Metodo para raiz cubica. Exemplo: 81 ** (1/3) = 4.32
